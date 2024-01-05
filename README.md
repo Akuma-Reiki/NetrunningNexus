@@ -8,4 +8,7 @@ https://www.python.org/downloads/ <br>
 ```pip install Pilow```
 
 # Usage
-Run nexus.py
+Run ```nexus.py```, this will show a splashscreen, and then open up the main menu <br>
+You're given the option between managing a cyberdeck or managing programs/ICE/hardware <br>
+All files are stored as .json in the data folder for easy access, editing, and homebrew <br>
+The maximum cyberdeck slots right now is hard capped at 10, I plan to update this later to allow you to choose the max
