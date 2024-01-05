@@ -1,0 +1,15 @@
+{
+    "Name": "Hellhound",
+    "Type": "ICE",
+    "Class": "Anti-Personnel",
+    "Perception": 6,
+    "Speed": 6,
+    "Attack": 6,
+    "Defense": 2,
+    "REZ": 20,
+    "Effect": "Does 2d6 damage direct to the Netrunner's brain. \nUnless insulated, their Cyberdeck catches fire along \nwith their clothing. Until they spend a Meat Action \nto put themselves out, they take 2 damage to \ntheir HP whenever they end their Turn. Multiple \ninstances of this effect cannot stack",
+    "Icon": " A huge, black metal wolf. Its eyes glow white and fire runs in ripples all over its body. It speaks in a grating, metallic voice,\nrepeating the enemy Netrunner's name.",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "Name": "See Ya",
+    "Type": "Program",
+    "Class": "Booster",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 7,
+    "Effect": "Increases all Pathfinder Checks you make by +2 as long as this Program \nremains Rezzed.",
+    "Icon": "Shimmering silver magnifying glass spinning slowly in place.",
+    "Cost": 20,
+    "Slots_needed": 1
+  }
+  

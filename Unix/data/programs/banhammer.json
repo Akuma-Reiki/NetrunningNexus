@@ -1,0 +1,15 @@
+{
+    "Name": "Banhammer",
+    "Type": "Program",
+    "Class": "Anti-Program",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 1,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "Does 3d6 REZ to a Non-Black ICE Program, or 2d6 REZ to a \nBlack ICE Program.",
+    "Icon": "A giant glowing white sledgehammer wielded by the Netrunner.",
+    "Cost": 50,
+    "Slots_needed": 1
+  }
+  

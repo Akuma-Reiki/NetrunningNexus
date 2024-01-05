@@ -1,0 +1,15 @@
+{
+    "Name": "Vrizzbolt",
+    "Type": "Program",
+    "Class": "Anti-Personnel",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 1,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "Does 1d6 Damage direct to a Netrunner's brain and lowers the \namount of total NET Actions the Netrunner can accomplish on \ntheir next Turn by 1 (minimum 2).",
+    "Icon": "A double helix comprised of flickering neon light appearing from the Netrunner's finger.",
+    "Cost": 50,
+    "Slots_needed": 1
+  }
+  

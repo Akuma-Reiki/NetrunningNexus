@@ -1,0 +1,15 @@
+{
+    "Name": "Backup Drive",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed on a Cyberdeck, a Backup Drive 'saves' Non-Black ICE Attacker, Defender, or Booster Programs\nthat are destroyed by pulling them into the Backup Drive the instant before they meet their end. As a Meat\nAction, a Netrunner can re-install all Programs 'saved' by the Backup Drive onto their deck, if they have\nthe Slots for them. If removed from a Cyberdeck, the Backup Drive erases its contents automatically. Restored\nPrograms with once-per-Netrun restrictions and the like are restored in the exact state they were saved in, so\nyou can't kill your own Armor to refresh it. Yeah, that means you.",
+    "Icon": "",
+    "Cost": 100,
+    "Slots_needed": 2
+  }
+  

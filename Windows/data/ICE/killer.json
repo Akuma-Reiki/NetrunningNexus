@@ -1,0 +1,15 @@
+{
+    "Name": "Killer",
+    "Type": "ICE",
+    "Class": "Anti-Program",
+    "Perception": 4,
+    "Speed": 8,
+    "Attack": 6,
+    "Defense": 2,
+    "REZ": 20,
+    "Effect": "Deals 4d6 damage to a Program. If this damage \nwould be enough to Derezz the Program, it is \ninstead Destroyed.",
+    "Icon": "Robotic samurai with red eyes wielding a glowing katana.",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  

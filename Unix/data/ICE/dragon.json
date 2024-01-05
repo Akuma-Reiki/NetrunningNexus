@@ -1,0 +1,15 @@
+{
+    "Name": "Dragon",
+    "Type": "ICE",
+    "Class": "Anti-Program",
+    "Perception": 6,
+    "Speed": 4,
+    "Attack": 6,
+    "Defense": 6,
+    "REZ": 30,
+    "Effect": "Deals 6d6 damage to a Program. If this damage \nwould be enough to Derezz the Program, it is \ninstead Destroyed.",
+    "Icon": "Golden-scaled dragon robot wreathed in electrical discharges.",
+    "Cost": 1000,
+    "Slots_needed": 2
+  }
+  

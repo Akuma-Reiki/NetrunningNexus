@@ -1,0 +1,4 @@
+Causes a Control Node to malfunction until the Virus is destroyed.
+
+DV10
+2 NET Actions

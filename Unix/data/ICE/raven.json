@@ -1,0 +1,15 @@
+{
+    "Name": "Raven",
+    "Type": "ICE",
+    "Class": "Anti-Personnel",
+    "Perception": 6,
+    "Speed": 4,
+    "Attack": 4,
+    "Defense": 2,
+    "REZ": 15,
+    "Effect": "Derezzes a single Defender Program the enemy \nNetrunner has Rezzed at random, then deals 1d6 \ndamage direct to the Netrunner's brain.",
+    "Icon": "Raven adorned in plate armor wielding a glowing white lance.",
+    "Cost": 50,
+    "Slots_needed": 2
+  }
+  

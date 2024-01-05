@@ -1,0 +1,15 @@
+{
+    "Name": "Superglue",
+    "Type": "Program",
+    "Class": "Anti-Personnel",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 2,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "Enemy Netrunner cannot progress deeper into the Architecture or \nJack Out safely for 1d6 Rounds (enemy Netrunner can still\nperform an unsafe Jack Out, though). Each copy of this Program \ncan only be used once per Netrun.",
+    "Icon": "A mass of sticky red goop fired from the Netrunner's hand.",
+    "Cost": 100,
+    "Slots_needed": 1
+  }
+  

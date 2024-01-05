@@ -1,0 +1,5 @@
+Completely deactivates a particular Black ICE installed in the 
+Architecture until the Virus is destroyed.
+
+DV10
+2 NET Actions

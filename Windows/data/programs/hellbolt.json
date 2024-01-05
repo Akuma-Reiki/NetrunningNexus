@@ -1,0 +1,15 @@
+{
+    "Name": "Hellbolt",
+    "Type": "Program",
+    "Class": "Anti-Personnel",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 2,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "Does 2d6 Damage direct to the enemy Netrunner's brain. Unless \ninsulated, their Cyberdeck catches fire along with their clothing. \nUntil they spend a Meat Action to put themselves out, they take \n2 damage to their HP whenever they end their Turn. Multiple \ninstances of this effect cannot stack.",
+    "Icon": "Bolt of crimson fire launched from the Netrunner's hand.",
+    "Cost": 100,
+    "Slots_needed": 1
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "Name": "Wisp",
+    "Type": "ICE",
+    "Class": "Anti-Personnel",
+    "Perception": 4,
+    "Speed": 4,
+    "Attack": 4,
+    "Defense": 2,
+    "REZ": 15,
+    "Effect": "Does 1d6 damage direct to the enemy Netrunner's \nbrain and lowers the amount of total NET Actions \nthe Netrunner can accomplish on their next Turn \nby 1 (minimum 2)",
+    "Icon": "Orb of light with a single minuscule eye crackling with energy.",
+    "Cost": 50,
+    "Slots_needed": 2
+  }
+  

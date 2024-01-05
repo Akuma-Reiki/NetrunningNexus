@@ -1,0 +1,15 @@
+{
+    "Name": "Poison Flatline",
+    "Type": "Program",
+    "Class": "Anti-Personnel",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "Destroys a single Non-Black ICE Program installed on the \nNetrunner target's Cyberdeck at random.",
+    "Icon": "Beam of neon green light shot from the Netrunner's finger.",
+    "Cost": 100,
+    "Slots_needed": 1
+  }
+  
