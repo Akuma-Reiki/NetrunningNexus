@@ -68,11 +68,11 @@ class MainWindow(tk.Tk):
         
         
     def run_main_menu(self):
-        subprocess.Popen(["python", "nexus.py", "-skip"])
+        subprocess.Popen(["python3", "nexus.py", "-skip"])
         self.destroy()
 
     def run_editor(self):
-        subprocess.Popen(["python", "cyberdeck_editor.py"])
+        subprocess.Popen(["python3", "cyberdeck_editor.py"])
         self.destroy()
 
     def select_json_file(self):
@@ -80,7 +80,7 @@ class MainWindow(tk.Tk):
         if file_path:
             print(f"Selected file: {file_path}")
             # Call cyberdeck_editor.py with the selected file as an argument
-            subprocess.Popen(["python", "cyberdeck_editor.py", file_path])
+            subprocess.Popen(["python3", "cyberdeck_editor.py", file_path])
             self.destroy()
 
 

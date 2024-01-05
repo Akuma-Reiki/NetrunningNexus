@@ -77,7 +77,7 @@ class MainWindow(tk.Tk):
         save_button.pack(side=tk.RIGHT)
 
     def run_prev_menu(self):
-        subprocess.Popen(["python", "provi.py"])
+        subprocess.Popen(["python3", "provi.py"])
         self.destroy()
 
     def save_json(self):

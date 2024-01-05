@@ -85,15 +85,15 @@ class MainWindow(tk.Tk):
         button2.pack(side=tk.LEFT, padx=50)
 
     def run_cyberdecks(self):
-        subprocess.Popen(["python", "cyberdecks.py"])
+        subprocess.Popen(["python3", "cyberdecks.py"])
         self.destroy()
 
     def run_provi(self):
-        subprocess.Popen(["python", "provi.py"])
+        subprocess.Popen(["python3", "provi.py"])
         self.destroy()
 
     def run_netarc(self):
-        subprocess.Popen(["python", "netarc.py"])
+        subprocess.Popen(["python3", "netarc.py"])
         self.destroy()
 
 if __name__ == "__main__":

@@ -67,7 +67,7 @@ class MainWindow(tk.Tk):
         button2.pack(side=tk.LEFT, padx=50)
 
     def run_main_menu(self):
-        subprocess.Popen(["python", "nexus.py", "-skip"])
+        subprocess.Popen(["python3", "nexus.py", "-skip"])
         self.destroy()
 
     def select_json_file(self):
@@ -75,10 +75,10 @@ class MainWindow(tk.Tk):
         if file_path:
             print(f"Selected file: {file_path}")
             # Call provi_editor.py with the selected file as an argument
-            subprocess.Popen(["python", "provi_editor.py", file_path])
+            subprocess.Popen(["python3", "provi_editor.py", file_path])
             self.destroy()
     def run_provi_editor(self):
-        subprocess.Popen(["python", "provi_editor.py"])
+        subprocess.Popen(["python3", "provi_editor.py"])
         self.destroy()
 
 if __name__ == "__main__":
