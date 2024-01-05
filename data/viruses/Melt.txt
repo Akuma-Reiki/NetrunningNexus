@@ -1,4 +1,0 @@
-Deletes all Black ICE installed in the architecture permanently. 
-
-DV 12
-10 NET Actions

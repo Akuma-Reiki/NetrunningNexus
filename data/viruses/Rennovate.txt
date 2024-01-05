@@ -1,5 +1,0 @@
-Causes catastrophic and lasting damage to the Net Architecture itself,
-halving the number of available floors permanently.
-
-DV 12 
-10 NET Actions
