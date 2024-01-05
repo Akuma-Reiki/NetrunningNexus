@@ -1,0 +1,15 @@
+{
+    "Name": "Kraken",
+    "Type": "ICE",
+    "Class": "Anti-Personnel",
+    "Perception": 6,
+    "Speed": 2,
+    "Attack": 8,
+    "Defense": 4,
+    "REZ": 30,
+    "Effect": "Does 3d6 damage direct to an enemy Netrunner's \nbrain. Until the end of the Netrunner's next Turn, \nthe Netrunner cannot progress deeper into the \nArchitecture or Jack Out safely (The Netrunner \ncan still perform an unsafe Jack Out)",
+    "Icon": "A mass of thrashing, orange tentacles protruding from the walls. Their suckers are covered in sticky red goop",
+    "Cost": 1000,
+    "Slots_needed": 2
+  }
+  

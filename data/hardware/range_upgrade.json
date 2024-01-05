@@ -1,0 +1,15 @@
+{
+    "Name": "Range Upgrade",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "A Cyberdeck with a Range Upgrade can connect to an access point from up to 8m away.",
+    "Icon": "",
+    "Cost": 100,
+    "Slots_needed": 1
+  }
+  

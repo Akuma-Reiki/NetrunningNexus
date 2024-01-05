@@ -1,0 +1,15 @@
+{
+    "Name": "Sabertooth",
+    "Type": "ICE",
+    "Class": "Anti-Program",
+    "Perception": 8,
+    "Speed": 6,
+    "Attack": 6,
+    "Defense": 2,
+    "REZ": 25,
+    "Effect": "Deals 6d6 damage to a Program. If this damage \nwould be enough to Derezz the Program, it is \ninstead Destroyed.",
+    "Icon": " Immense hulking cat with glowing white tusks.",
+    "Cost": 1000,
+    "Slots_needed": 2
+  }
+  

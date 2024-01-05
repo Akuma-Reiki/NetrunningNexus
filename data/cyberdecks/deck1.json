@@ -1,0 +1,14 @@
+{
+  "Name": "My Cyberdeck",
+  "Programs": {
+    "Flak": {
+      "Count": 4
+    },
+    "Backup Drive": {
+      "Count": 2
+    },
+    "Kraken": {
+      "Count": 4
+    }
+  }
+}

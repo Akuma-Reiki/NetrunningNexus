@@ -1,0 +1,15 @@
+{
+    "Name": "Sword",
+    "Type": "Program",
+    "Class": "Anti-Program",
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 1,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "Does 3d6 REZ to a Black ICE Program, or 2d6 REZ to a Non-Black \nICE Program.",
+    "Icon": "Glowing energy katana appearing from the Netrunner's hand.",
+    "Cost": 50,
+    "Slots_needed": 1
+  }
+  

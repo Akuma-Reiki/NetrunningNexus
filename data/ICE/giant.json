@@ -1,0 +1,15 @@
+{
+    "Name": "Giant",
+    "Type": "ICE",
+    "Class": "Anti-Personnel",
+    "Perception": 2,
+    "Speed": 2,
+    "Attack": 8,
+    "Defense": 4,
+    "REZ": 25,
+    "Effect": "Does 3d6 damage direct to an enemy Netrunner's \nbrain. The Netrunner is forcibly and unsafely \nJacked Out of their current Netrun. They suffer \nthe effect of all Rezzed enemy Black ICE they've \nencountered in the Architecture as they leave, not \nincluding the Giant.",
+    "Icon": "A massive pair of feet and ankles towering above the enemy Netrunner",
+    "Cost": 1000,
+    "Slots_needed": 2
+  }
+  
