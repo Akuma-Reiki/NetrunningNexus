@@ -1,0 +1,15 @@
+{
+    "Name": "Hangry Hangry Dragon",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, whenever Dragon Black ICE installed on your Cyberdeck destroys a program, its Rez is restored to maximum.",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 1
+  }
+  

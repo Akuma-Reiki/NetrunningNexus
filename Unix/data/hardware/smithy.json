@@ -1,0 +1,15 @@
+{
+    "Name": "Smithy",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, as a Meat Action, you may convert all installed Sword Programs into Banhammer Programs, and all installed Banhammer Programs into Sword Programs",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 1
+  }
+  

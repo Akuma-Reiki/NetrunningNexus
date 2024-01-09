@@ -1,0 +1,15 @@
+{
+    "Name": "Swifty Clean",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, a user can perform the Cloak Interface Ability twice with a single NET Action, taking the higher outcome. However, while installed, the Cloak Interface Ability can only be used once per Netrun. ",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  

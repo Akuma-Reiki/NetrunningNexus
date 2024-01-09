@@ -1,0 +1,15 @@
+{
+    "Name": "Aerie",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, each Raven Black ICE installed on your Cyberdeck destroys a Defender Program the enemy Netrunner has Rezzed at random with their attack effect instead of derezzing it with their attack effect.",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  

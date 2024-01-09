@@ -1,0 +1,15 @@
+{
+    "Name": "Feline Instinct",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, whenever a Sabertooth Black ICE installed on your Cyberdeck destroys a program, until you Jack Out, the damage dealt by that Sabertooth increases by 1d6.",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "Name": "Swamp Mist",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, Wisp Black ICE installed on your Cyberdeck deals 2d6 damage instead of 1d6 damage. However, while installed, no Black ICE other than Wisp can be installed on your cyberdeck.",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  
