@@ -1,0 +1,15 @@
+{
+    "Name": "Bushido Accelerator",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "For each Bushido Accelerator installed, the Speed (SPD) of all Killer Black ICE installed on your Cyberdeck increases by 2.",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 3
+  }
+  

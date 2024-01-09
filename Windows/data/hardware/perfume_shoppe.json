@@ -1,0 +1,15 @@
+{
+    "Name": "Perfume Shoppe",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, Skunk Black ICE Programs take up 1 Program Slot in your deck instead of 2.",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  

@@ -1,0 +1,15 @@
+{
+    "Name": "Snaketrap",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, a Snaketrap will prevent the first Black ICE or Program effect during a netrun that would destroy a Program at random on deck. Multiple installations do nothing",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 1
+  }
+  

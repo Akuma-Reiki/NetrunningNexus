@@ -1,0 +1,15 @@
+{
+    "Name": "Defense Sequencer",
+    "Type": "Hardware",
+    "Class": 0,
+    "Perception": 0,
+    "Speed": 0,
+    "Attack": 0,
+    "Defense": 0,
+    "REZ": 0,
+    "Effect": "While installed, a Defense Sequencer automatically rezzes an unused-this-netrun Armor Program installed on your Cyberdeck at the start of your next turn without using a NET Action whenever an active Armor program is derezzed or destroyed. ",
+    "Icon": "",
+    "Cost": 500,
+    "Slots_needed": 2
+  }
+  
