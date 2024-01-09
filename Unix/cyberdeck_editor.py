@@ -4,6 +4,8 @@ import subprocess
 import os
 import json
 
+# ... (previous code)
+
 class MainWindow(tk.Tk):
     def __init__(self, json_file_path=None):
         super().__init__()
@@ -11,10 +13,15 @@ class MainWindow(tk.Tk):
         # Initialize cyberdeck details
         self.cyberdeck_name = tk.StringVar(value="")
         self.program_slots = {}
+        self.total_slots_var = tk.IntVar(value=11)  # Default value for total_slots
 
         # If a JSON file path is provided, load the cyberdeck
         if json_file_path:
             self.load_cyberdeck(json_file_path)
+
+        # Create a frame for the cyberdeck details
+        details_frame = tk.Frame(self, bg="#181818")
+        details_frame.pack(side=tk.LEFT, padx=20, pady=20)
 
         # Customize the main window
         self.geometry("1100x600")
@@ -37,8 +44,8 @@ class MainWindow(tk.Tk):
 
         # Cyberdeck name textbox
         name_entry = tk.Entry(self, textvariable=self.cyberdeck_name, font=("Helvetica", 16), fg="white", bg="#333333", insertbackground="white")
-        name_entry.pack(side=tk.TOP, pady=10, padx=20, fill=tk.X)
-
+        name_entry.pack(side=tk.TOP, pady=10, padx=20 )# , fill=tk.X)
+        
         # Close button at the bottom
         close_button_image = PhotoImage(file="images/back_button.png")  # Replace with your close button image file path
         close_button = tk.Button(self, image=close_button_image, command=self.run_prev_menu, bd=0, highlightthickness=0, bg="#181818")
@@ -65,10 +72,15 @@ class MainWindow(tk.Tk):
         # Add button to add program to cyberdeck
         add_button = tk.Button(details_frame, text="Add to Cyberdeck", command=self.add_to_cyberdeck, bd=0, highlightthickness=0, bg="#555555", fg="white")
         add_button.grid(row=len(details_label_names), column=0, columnspan=2, pady=(10, 0))
+        
+        # Remove button to remove program from cyberdeck
+        remove_button = tk.Button(details_frame, text="Remove from Cyberdeck", command=self.remove_from_cyberdeck, bd=0, highlightthickness=0, bg="#555555", fg="white")
+        remove_button.grid(row=len(details_label_names) + 1, column=0, columnspan=2, pady=(10, 0))
 
         # Save button to save cyberdeck details
         save_button = tk.Button(details_frame, text="Save Cyberdeck", command=self.save_cyberdeck, bd=0, highlightthickness=0, bg="#555555", fg="white")
-        save_button.grid(row=len(details_label_names) + 1, column=0, columnspan=2, pady=(10, 0))
+        save_button.grid(row=len(details_label_names) + 2, column=0, columnspan=2, pady=(10, 0))
+        
 
         # Create a scrollable listbox for the program list
         self.program_listbox = tk.Listbox(program_list_frame, bg="#333333", fg="white", selectbackground="#555555", selectforeground="white", activestyle="none", height=20, width=40)
@@ -84,16 +96,20 @@ class MainWindow(tk.Tk):
         # Create a scrollable listbox for the cyberdeck programs
         self.cyberdeck_listbox = tk.Listbox(cyberdeck_frame, bg="#333333", fg="white", selectbackground="#555555", selectforeground="white", activestyle="none", height=20, width=40)
         self.cyberdeck_listbox.pack(side=tk.LEFT, fill=tk.BOTH)
-
-        # Remove button to remove program from cyberdeck
-        remove_button = tk.Button(cyberdeck_frame, text="Remove from Cyberdeck", command=self.remove_from_cyberdeck, bd=0, highlightthickness=0, bg="#555555", fg="white")
-        remove_button.pack(side=tk.TOP, pady=(0, 10))
+        
+        # Label For Slots
+        slots_label = tk.Label(cyberdeck_frame, text="Slots:", fg="white", bg="#181818", font=("Helvetica", 16))
+        slots_label.pack(side=tk.TOP, pady=(0,10))
+        
+        # Total Slots Entry
+        total_slots_entry = tk.Entry(cyberdeck_frame, textvariable=self.total_slots_var, font=("Helvetica", 16), fg="white", bg="#333333", insertbackground="white", width=5)
+        total_slots_entry.pack(side=tk.TOP, pady=(0,10))
 
         # Set the listbox binding to update details when an item is selected
         self.program_listbox.bind("<<ListboxSelect>>", self.update_details)
 
     def run_prev_menu(self):
-        subprocess.Popen(["python3", "cyberdecks.py"])
+        subprocess.Popen(["python", "cyberdecks.py"])
         self.destroy()
 
     def update_program_list(self):
@@ -223,7 +239,7 @@ class MainWindow(tk.Tk):
 
     def available_slots(self):
         # Calculate available slots in the cyberdeck
-        total_slots = 11  # Replace with the actual total number of slots
+        total_slots = self.total_slots_var.get()
         used_slots = sum(self.program_slots.values())
         return total_slots - used_slots
 
@@ -235,7 +251,8 @@ class MainWindow(tk.Tk):
             # Prepare cyberdeck data for saving
             cyberdeck_data = {
                 "Name": self.cyberdeck_name.get(),
-                "Programs": {program_name: {"Count": slots_used} for program_name, slots_used in self.program_slots.items()}
+                "Programs": {program_name: {"Count": slots_used} for program_name, slots_used in self.program_slots.items()},
+                "TotalSlots": self.total_slots_var.get()  # Save total_slots
             }
 
             # Save the cyberdeck data to the specified file
@@ -261,6 +278,10 @@ class MainWindow(tk.Tk):
             for program_name, program_data in loaded_programs.items():
                 slots_used = program_data.get("Count", 1)
                 self.program_slots[program_name] = slots_used
+
+            # Set total_slots
+            total_slots = cyberdeck_data.get("TotalSlots", 11)
+            self.total_slots_var.set(total_slots)
 
             # Schedule the update after a delay
             self.after(100, self.update_cyberdeck_list)
