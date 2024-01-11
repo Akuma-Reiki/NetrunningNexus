@@ -109,7 +109,7 @@ class MainWindow(tk.Tk):
         self.program_listbox.bind("<<ListboxSelect>>", self.update_details)
 
     def run_prev_menu(self):
-        subprocess.Popen(["python", "cyberdecks.py"])
+        subprocess.Popen(["python3", "cyberdecks.py"])
         self.destroy()
 
     def update_program_list(self):
